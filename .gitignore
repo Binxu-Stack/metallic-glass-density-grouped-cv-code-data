@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.venv-magpie/
+.pytest_cache/
+models/
+figures/
+results/recomputed/
+results/cv_splits_recomputed.json
+results/phase4_*/
+results/cluster_analysis/
+data/raw/MaterialsProject/

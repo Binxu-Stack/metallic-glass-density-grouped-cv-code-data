@@ -1,0 +1,266 @@
+[
+  {
+    "released_file": ".gitignore",
+    "released_sha256": "2ffcf37ba27505c651bf44c22394fe5d904290dc5cd1e0a50baa267a197bde29"
+  },
+  {
+    "released_file": "README.md",
+    "released_sha256": "09cf4ab279a52724ae4589637c4343c1534b8d7deb0d8622f467ab32ebbbf48f"
+  },
+  {
+    "released_file": "code/analyze_predictions.py",
+    "released_sha256": "10f0c4fe9b1bf973fd0ab7b3e51ec2c9acaea15a88d39c871bb02963d53b16a1"
+  },
+  {
+    "released_file": "code/make_cv_splits.py",
+    "released_sha256": "650052bb7d5e1837378238dceca48c314485a871f7afc4ab15b28086410c9913"
+  },
+  {
+    "released_file": "code/make_figures.py",
+    "released_sha256": "869975882f1831e495414792eeca1880c74256bb8769efa6580566ca1b8056d8",
+    "manuscript_source": "revised/scripts/build_revision_figures.py",
+    "source_sha256": "3abe827de74a7ca350bd1e313d6acfd26593f7305d58c9248f03e86580e6a66d"
+  },
+  {
+    "released_file": "code/scripts/analyze_family_residuals.py",
+    "released_sha256": "da0467d63427e19e061abd17c2fbfac7643141cb98bd1f87e5428d71c4a52e81",
+    "source_project_file": "scripts/analyze_phase4_hard_grouped_residuals.py",
+    "source_sha256": "d216af53dbeae2953e59f622535b6e8c3c476dc9ab1d4b29bb2160425d548e42"
+  },
+  {
+    "released_file": "code/scripts/analyze_scale_fidelity.py",
+    "released_sha256": "3f40c019c09876cfba832dbe015e0bb136368af7f37bbb6e0a5b27814d6915a5",
+    "source_project_file": "scripts/analyze_scale_fidelity.py",
+    "source_sha256": "a40bbacc84053456d7b59fb419b9b2de56dc3f207c93e1a1308867cbdf68ed54"
+  },
+  {
+    "released_file": "code/scripts/assemble_model_matrix.py",
+    "released_sha256": "906f0b3132d451f2467561eca00de258983e539e2f3b900a496cfbd58d52dcb0",
+    "source_project_file": "scripts/assemble_phase4_model_matrix.py",
+    "source_sha256": "df1207b22acf29730cd924b027132e6690f886d75e279d683c83cc07d0958a81"
+  },
+  {
+    "released_file": "code/scripts/bootstrap_oof_metrics.py",
+    "released_sha256": "7d0b73bda5eef91ce8ca41461cb5f662a70677dc9cffce6b242d1047e7cde4d5",
+    "source_project_file": "scripts/bootstrap_phase4_pooled_oof_uncertainty.py",
+    "source_sha256": "72f887b0dd713ae99999322965178348b6c0560fe00716f1242544b072d250e1"
+  },
+  {
+    "released_file": "code/scripts/fetch_mp_density.py",
+    "released_sha256": "507dba6d93cdeabe8f3b53557eea062db99e6c018c739aabc12e4ff5c3ef88b1",
+    "source_project_file": "scripts/../data/raw/MaterialsProject/fetch_mp_density.py",
+    "source_sha256": "d30eb9a852d08889b450e761ce3b879c84b087a1211bf04c575a947ae46f9dda"
+  },
+  {
+    "released_file": "code/scripts/make_composition_families.py",
+    "released_sha256": "a147bbe3fe5844aa255436c1ea1bd7978ead1721922adde147b044b1e697937c",
+    "source_project_file": "scripts/run_cluster_analysis.py",
+    "source_sha256": "366f9227523a32811592e38a20b3a64baac1859e92c536de5b98e69f368763bd"
+  },
+  {
+    "released_file": "code/scripts/pretrain_roost_mp.py",
+    "released_sha256": "99d5d1b976dbda04c70d78e0b0a94a5c2a7008796bb915cb82cd9cc8df1f8d7c",
+    "source_project_file": "scripts/run_phase4_pretrain_roost_mp.py",
+    "source_sha256": "5753da200e6a87b3d0900e53af3fd2512e0968450bb8f56806b7897dfe65fe1e"
+  },
+  {
+    "released_file": "code/scripts/train_physical_models.py",
+    "released_sha256": "be6f2b32ed625b88721e8a9b052f81552a220c4901a817131e9f0d63383f24e1",
+    "source_project_file": "scripts/run_phase4_cv_physical_baselines.py",
+    "source_sha256": "3f6115cf17e33bdb226414d48f03f6b80d124ab6116b5d2ded99371f87b485e8"
+  },
+  {
+    "released_file": "code/scripts/train_random_forest.py",
+    "released_sha256": "594d8f0bef6740c749821349e73c717da38398fa2fddd6024b717f34396f183b",
+    "source_project_file": "scripts/run_phase4_cv_random_forest.py",
+    "source_sha256": "88e42b4a5028a495fb43802f3c3afd8832938edd60cd93b7b6f84df8674645d2"
+  },
+  {
+    "released_file": "code/scripts/train_roost_baseline.py",
+    "released_sha256": "b774c23a52565c9cf74582e6b6deeea9f8d06fd580b5ed822ecb45a2b6eb7259",
+    "source_project_file": "scripts/run_phase4_cv_roost_scratch.py",
+    "source_sha256": "78c4577f18df95b0a0783b4d9d15e73ef79ee3a3029537dd27879190a587ca10"
+  },
+  {
+    "released_file": "code/scripts/train_roost_physics.py",
+    "released_sha256": "2d43aa0c6d0f7dca5f52bbe25bac3c6a84782be4d83786fd91ab5f26321c1cf1",
+    "source_project_file": "scripts/run_phase4_cv_roost_physics.py",
+    "source_sha256": "99f73ee5dd9a6f64d1da6a24845623f111eaf09c74426d2465bc983e08ff628b"
+  },
+  {
+    "released_file": "code/scripts/train_roost_transfer.py",
+    "released_sha256": "e9f83fe172e009c2478cf1d5aa500e94f6d9e71a9a410967962479fc546456c4",
+    "source_project_file": "scripts/run_phase4_cv_roost_transfer.py",
+    "source_sha256": "5676b63a954d277753ca65ba68b55975a778ba999fe94e4240c2c613fec0b47a"
+  },
+  {
+    "released_file": "code/src/__init__.py",
+    "released_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_project_file": "src/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "released_file": "code/src/data_loader.py",
+    "released_sha256": "c91dc0eb616718510cf8dc60af35248930024ae4f73af6ed3460419eb837f5c5",
+    "source_project_file": "src/data_loader.py",
+    "source_sha256": "51730d72a32bca1c1a7589b116cd4daac51e54f389dd735899a7ccf0f51028dc"
+  },
+  {
+    "released_file": "code/src/features.py",
+    "released_sha256": "f5e9424c699580a2b79e734f50187cfc6cf199d27c9bedb718acfb8ed483fd92",
+    "source_project_file": "src/features.py",
+    "source_sha256": "cbca9e505bb50cfa20bd1894f865303b1415158ffc84c9918864d8a4e8fcf122"
+  },
+  {
+    "released_file": "code/src/models.py",
+    "released_sha256": "f79ea556eaf796ebafb718b7a4045866880e63c5ab48b6a3aed63db1f4686df2",
+    "source_project_file": "src/models.py",
+    "source_sha256": "46432bdae589fe75911d658af7658da2db042bb3e96346d9ad6372df8e9f748e"
+  },
+  {
+    "released_file": "code/src/roost_physics.py",
+    "released_sha256": "d19b07234bfb322e534cee0879320a8366020b71c9e84b272980a4a61c4034d5",
+    "source_project_file": "src/roost_physics.py",
+    "source_sha256": "d19b07234bfb322e534cee0879320a8366020b71c9e84b272980a4a61c4034d5"
+  },
+  {
+    "released_file": "code/src/train_test_split.py",
+    "released_sha256": "008c2e57d16e6bf92d0664e991c2b06a9ef5abdac5570ead831267db4c565467",
+    "source_project_file": "src/train_test_split.py",
+    "source_sha256": "008c2e57d16e6bf92d0664e991c2b06a9ef5abdac5570ead831267db4c565467"
+  },
+  {
+    "released_file": "code/src/utils.py",
+    "released_sha256": "6a5a8f97e8ab9e9cd6e310113d209f1ac75a3119f64aef8acf8eafc258f432c2",
+    "source_project_file": "src/utils.py",
+    "source_sha256": "6a5a8f97e8ab9e9cd6e310113d209f1ac75a3119f64aef8acf8eafc258f432c2"
+  },
+  {
+    "released_file": "data/composition_families_k36.csv",
+    "released_sha256": "62129a0b05eb9276472a1fb96f0bb98457ac142ef1c5f8ddea322c8ebfb85741",
+    "manuscript_snapshot": "revised/figure_data/cluster_analysis/cluster_assignments_k36.csv",
+    "source_sha256": "f811a0b4a96a47575740303e82d1fa6b4704585ea92a975cfd8a192b8600932f"
+  },
+  {
+    "released_file": "data/curation_ledger_417.csv",
+    "released_sha256": "a8e62948fd56d3ecd4ffb3c5b43cae9c3dce88b69d8c6c42f1ad0cd62be6f8fe",
+    "source_project_file": "data/processed/density_data_processing_notes.xlsx",
+    "source_sha256": "1a7eafbd19871095da6352292a38578ada1758c48e37a271f627264dfda6e7d9"
+  },
+  {
+    "released_file": "data/cv_splits.json",
+    "released_sha256": "8de6a26daffada411c4bcd1427c7aab1c75660cee1d3527b1b20770b730a5698",
+    "source_project_file": "results/phase4_cv_folds_canonical.json",
+    "source_sha256": "ee3208cc6e6955b5d2ed4d0ba873f8832eb3a4767a3b9eeacdf8c916beec9b1e"
+  },
+  {
+    "released_file": "data/experimental_density_380.csv",
+    "released_sha256": "4529400f4d6e45cac9ee414e9f1eb7c077f589f5f8616d69a145dc86ea8d88e2",
+    "source_project_file": "data/processed/merged_density_data.json",
+    "source_sha256": "f22d5231cf48de12acdc6b8b8f54d86a28a7f7f1ae22dd61646c88bf919b4c06"
+  },
+  {
+    "released_file": "data/features/atomic_features_mendeleev.csv",
+    "released_sha256": "2807a00189a416f878029224eb019f384c91eb65c8230e560ba8cb98f6a0c8a1",
+    "source_project_file": "data/features/atomic_features_mendeleev.csv",
+    "source_sha256": "2807a00189a416f878029224eb019f384c91eb65c8230e560ba8cb98f6a0c8a1"
+  },
+  {
+    "released_file": "data/features/atomic_radii_miracle_2013.csv",
+    "released_sha256": "65c34476b81fc8bd6f74c942701268c287d0c2467d1b121d3d99669fead3e113",
+    "source_project_file": "data/features/atomic_radii_miracle_2013.csv",
+    "source_sha256": "65c34476b81fc8bd6f74c942701268c287d0c2467d1b121d3d99669fead3e113"
+  },
+  {
+    "released_file": "data/features/embeddings/element/physical2.json",
+    "released_sha256": "053225e908864987b237b5b0bd73a1d77c848fb4620844f402f587c5e315531c",
+    "source_project_file": "data/features/embeddings/element/physical2.json",
+    "source_sha256": "053225e908864987b237b5b0bd73a1d77c848fb4620844f402f587c5e315531c"
+  },
+  {
+    "released_file": "figure_data/clustering/cluster_assignments_k36.csv",
+    "released_sha256": "f811a0b4a96a47575740303e82d1fa6b4704585ea92a975cfd8a192b8600932f",
+    "manuscript_snapshot": "revised/figure_data/cluster_analysis/cluster_assignments_k36.csv",
+    "source_sha256": "f811a0b4a96a47575740303e82d1fa6b4704585ea92a975cfd8a192b8600932f"
+  },
+  {
+    "released_file": "figure_data/clustering/cluster_summary_k36.csv",
+    "released_sha256": "8d92a1b95087da9634aec86f117998f5cf812adafe0ad9266777cadb79518219",
+    "manuscript_snapshot": "revised/figure_data/cluster_analysis/cluster_summary_k36.csv",
+    "source_sha256": "8d92a1b95087da9634aec86f117998f5cf812adafe0ad9266777cadb79518219"
+  },
+  {
+    "released_file": "figure_data/clustering/distance_metrics.csv",
+    "released_sha256": "2dda761e8826531a3b5112f61fe52a32f040c290a1a70ff3024335194d8362ce",
+    "manuscript_snapshot": "revised/figure_data/cluster_analysis/distance_metrics.csv",
+    "source_sha256": "2dda761e8826531a3b5112f61fe52a32f040c290a1a70ff3024335194d8362ce"
+  },
+  {
+    "released_file": "figure_data/clustering/k_sweep_metrics.csv",
+    "released_sha256": "3640e55104f32c6b0c076871d6d13b7bec6d0c4f2b90563a8c8ca020f8436cc6",
+    "manuscript_snapshot": "revised/figure_data/cluster_analysis/k_sweep_metrics.csv",
+    "source_sha256": "3640e55104f32c6b0c076871d6d13b7bec6d0c4f2b90563a8c8ca020f8436cc6"
+  },
+  {
+    "released_file": "figure_data/family_residuals/bp_si_grouped_summary.csv",
+    "released_sha256": "64cb84386817cc7b720ac05d409fe90e2f9d17e27ffe5b67e18718fb6c027603",
+    "manuscript_snapshot": "revised/figure_data/phase4_hard_grouped_residuals/bp_si_grouped_summary.csv",
+    "source_sha256": "64cb84386817cc7b720ac05d409fe90e2f9d17e27ffe5b67e18718fb6c027603"
+  },
+  {
+    "released_file": "figure_data/family_residuals/hard_roost_cluster_deltas.csv",
+    "released_sha256": "db29c3be5688483746cd8182b9de3daedd6ca3380c2c7ccd4f87847bcf6ba836",
+    "manuscript_snapshot": "revised/figure_data/phase4_hard_grouped_residuals/hard_roost_cluster_deltas.csv",
+    "source_sha256": "db29c3be5688483746cd8182b9de3daedd6ca3380c2c7ccd4f87847bcf6ba836"
+  },
+  {
+    "released_file": "figure_data/family_residuals/hard_roost_cluster_model_metrics.csv",
+    "released_sha256": "83736f9f4e8a275790bf02a6a6e5740cd41d007531bc41626460f1c2fbc214d5",
+    "manuscript_snapshot": "revised/figure_data/phase4_hard_grouped_residuals/hard_roost_cluster_model_metrics.csv",
+    "source_sha256": "83736f9f4e8a275790bf02a6a6e5740cd41d007531bc41626460f1c2fbc214d5"
+  },
+  {
+    "released_file": "figure_data/scale_fidelity/scale_fidelity_summary.csv",
+    "released_sha256": "c9327997d4b3dde24f5aa57fd2d492b7ec86564051c4cce5ca719e74261b9692",
+    "manuscript_snapshot": "revised/figure_data/phase4_scale_fidelity/scale_fidelity_summary.csv",
+    "source_sha256": "c9327997d4b3dde24f5aa57fd2d492b7ec86564051c4cce5ca719e74261b9692"
+  },
+  {
+    "released_file": "figure_data/uncertainty/pooled_oof_bootstrap_summary.csv",
+    "released_sha256": "3c728e1b189691dad4a38c9db03969ceec6739b969054933cb16348ecbceb643",
+    "manuscript_snapshot": "revised/figure_data/phase4_pooled_oof_uncertainty/pooled_oof_bootstrap_summary.csv",
+    "source_sha256": "3c728e1b189691dad4a38c9db03969ceec6739b969054933cb16348ecbceb643"
+  },
+  {
+    "released_file": "figure_data/uncertainty/pooled_oof_point_metrics_wide.csv",
+    "released_sha256": "92d3faba2ba339060e389d55b6359d99c692a10b62472b03b630adb5226c0836",
+    "manuscript_snapshot": "revised/figure_data/phase4_pooled_oof_uncertainty/pooled_oof_point_metrics_wide.csv",
+    "source_sha256": "92d3faba2ba339060e389d55b6359d99c692a10b62472b03b630adb5226c0836"
+  },
+  {
+    "released_file": "figure_data/uncertainty/pooled_oof_residuals_long.csv",
+    "released_sha256": "061b91937969b6644e8eda357ac3094e5cdb51ed95a7cd2c553c10a1b8a76b64",
+    "manuscript_snapshot": "revised/figure_data/phase4_pooled_oof_uncertainty/pooled_oof_residuals_long.csv",
+    "source_sha256": "061b91937969b6644e8eda357ac3094e5cdb51ed95a7cd2c553c10a1b8a76b64"
+  },
+  {
+    "released_file": "requirements-magpie.txt",
+    "released_sha256": "a8c6c0b43aec3aad86dbf1977bd9c9fd4909eaab4f8637d566a85105597a9b59"
+  },
+  {
+    "released_file": "requirements-main.txt",
+    "released_sha256": "30ba01fca184911536f95b0154636fb8358233bf70c3c600dc6a44d317f5563e"
+  },
+  {
+    "released_file": "results/bootstrap_summary.csv",
+    "released_sha256": "66fcc8a9b86fd34b28277fdf5958ff2afd44fab263fe917acd0f83f5edf93b56",
+    "source_project_file": "results/phase4_scale_fidelity/scale_fidelity_summary.csv",
+    "source_sha256": "b7f73e6e7305eafc7d0dc5d7c7f064e5f60d857bd94542d6d4e5c111b0bd1fb7"
+  },
+  {
+    "released_file": "results/out_of_fold_predictions.csv",
+    "released_sha256": "53bef9c850bd33e8d386954ef98753742194fc7e7cd14c1913bad4fa9e2a0ec3",
+    "source_project_file": "results/phase4_pooled_oof_uncertainty/pooled_oof_residuals_long.csv",
+    "source_sha256": "710ab5b800bbaae4e55a42db989a5e50a723e63343997974a39fa7c48489f031"
+  }
+]

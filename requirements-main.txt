@@ -1,0 +1,13 @@
+# Direct dependencies and versions recorded in the source project's uv.lock.
+# Python 3.12. The Magpie Random Forest uses requirements-magpie.txt separately.
+aviary-models==1.2.1
+matplotlib==3.10.9
+mendeleev==1.1.0
+mp-api==0.46.2
+numpy==2.4.6
+pandas==3.0.3
+pymatgen==2026.5.4
+scikit-learn==1.8.0
+scipy==1.17.1
+tabulate==0.10.0
+torch==2.12.0
